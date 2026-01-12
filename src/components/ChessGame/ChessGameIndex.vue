@@ -2,7 +2,7 @@
 //import draggableComponent from "vuedraggable"
 import { chessGridArr } from './data/grid/useGrid';
 import { useFigures } from './data/figures/useFigures';
-import { onMounted, ref } from 'vue';
+import { onMounted } from 'vue';
 
 const useFiguresComposable = useFigures()
 
